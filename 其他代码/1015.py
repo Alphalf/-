@@ -1,0 +1,6 @@
+a=int(input(""))
+baiwei=int(a//100)
+shiwei=int((a//10)%10)
+gewei=int(a%10)
+sum=int(gewei*100+shiwei*10+baiwei)
+print(sum)

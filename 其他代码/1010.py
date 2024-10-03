@@ -1,0 +1,5 @@
+age=int(input(""))
+silient_rate=int(input(""))
+suitable_rate1=float((220-age-silient_rate)*0.6+silient_rate)
+suitable_rate2=float((220-age-silient_rate)*0.8+silient_rate)
+print(str(suitable_rate1)+"~"+str(suitable_rate2))
